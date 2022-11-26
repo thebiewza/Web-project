@@ -29,6 +29,11 @@ body {
 section {
   padding: 4rem 0 3rem;
 }
+#errordisplay{
+  color: red;  
+  font-size: 15px;
+}
+
 /* Header */
 header {
   position: fixed;

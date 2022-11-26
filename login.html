@@ -13,7 +13,6 @@
 <body>
 	<div id=container-register>
 		<div id="wrap-login100">
-			<!-- <form action="shopping.html" name="myLogin" id="myLogin"> -->
 			<form action="/checkLogin" method="post" accept-charset="utf-8" class="form" id="myform" name="myform">
 
 				<form name="myLogin" id="myLogin">
@@ -25,8 +24,14 @@
 						Password:
 						<input type="password" name="typepassword" id="password" required>
 						<br>
+						<span id="errordisplay"></span><br>
+						
 						<input type="submit" id="button1" value="Login">
-						<input type="reset" id="button2" value="Clear">
+						<br>
+						<a href="index.html"> 
+							<input type="button" id="button2" value="Register">
+						</a>
+
 				</form>
 			</form>
 		</div>
